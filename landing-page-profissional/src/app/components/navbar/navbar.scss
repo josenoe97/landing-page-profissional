@@ -1,6 +1,6 @@
 /* Navbar base */
 .navbar {
-  background: linear-gradient(90deg, #1f1c2c, #928dab);
+  background: rgba(10, 1, 1, 0.884);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,8 +14,8 @@
 
 /* Logo */
 .logo a {
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: #fff;
   letter-spacing: 1px;
   text-decoration: none;
@@ -44,7 +44,6 @@
 /* Hover e ativo */
 .nav-links a:hover {
   background-color: rgba(255, 255, 255, 0.15);
-  color: #ffcc70;
   transform: translateY(-2px);
 }
 
@@ -53,6 +52,16 @@
   color: #1f1c2c;
   font-weight: 600;
   box-shadow: 0 2px 8px rgba(255, 204, 112, 0.4);
+}
+
+/* LinkedIn dourado */
+.nav-links a.linkedinLink:hover {
+  color: #1900ff;
+}
+
+/* GitHub preto */
+.nav-links a.githubLink:hover {
+  color: #000;
 }
 
 /* Responsivo */
