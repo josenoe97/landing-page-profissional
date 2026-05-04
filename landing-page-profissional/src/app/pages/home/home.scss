@@ -1,11 +1,19 @@
-body {
-  background: #f5f7fa; 
+.titulo {
+  h1 {
+    color: #F59E0B;
+  }
 }
 
 .section-shadow {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.04);
   border-radius: 12px;
   padding: 2rem;
+  
+  border: 1px solid rgba(255, 255, 255, 0.12); 
+
+  h2,p,ul{
+    color: #F8FAFC;
+  }
 
   box-shadow:
     0 2px 4px rgba(0, 0, 0, 0.04),
